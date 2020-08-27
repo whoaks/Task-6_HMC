@@ -14,6 +14,7 @@ resource "aws_db_instance" "mydb" {
   username = "diyaksh"
   password = "whoaks1234"
   port     = "3306"
+  public_accessible = true
 
   iam_database_authentication_enabled = true
 
